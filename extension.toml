@@ -1,14 +1,15 @@
-id = "wgsl"
-name = "Wgsl"
+id = "wgsl-analyzer"
+name = "Wgsl Analyzer"
 version = "0.0.2"
 schema_version = 1
-authors = ["Luan Santos <zed@luan.sh>", "xdk78 <xdk78888@gmail.com>"]
+authors = ["Arlo Phoenix <aarlo.phoenix@gmail.com>"]
 description = "Wgsl language support for Zed"
 repository = "https://github.com/luan/zed-wgsl"
+path_suffixes = ["wgsl"]
 
 [language_servers.wgsl]
-name = "Wgsl"
-language = "wgsl"
+name = "Wgsl Analyzer"
+language = "Wgsl"
 
 [grammars.wgsl]
 repository = "https://github.com/szebniok/tree-sitter-wgsl"
